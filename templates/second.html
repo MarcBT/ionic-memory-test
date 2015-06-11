@@ -1,11 +1,7 @@
-<ion-header-bar class="bar-positive">
-    <h1 class="title">Page 2 - 1000 Items</h1>
-</ion-header-bar>
-
-<ion-content>
-    <ion-list>
-        <ion-item ng-repeat="item in vm.items">
+<div>
+    <ul>
+        <li ng-repeat="item in vm.items">
             <a href="#/first">Go to page 1 - {{item}}</a>
-        </ion-item>
-    </ion-list>
-</ion-content>
+        </li>
+    </ul>
+</div>
