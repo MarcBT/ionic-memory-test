@@ -6,6 +6,6 @@
 (function() {
     'use strict';
 
-    angular.module('memory', ['ui.router']);
+    angular.module('memory', ['ngAnimate', 'ui.router']);
 
 }());
